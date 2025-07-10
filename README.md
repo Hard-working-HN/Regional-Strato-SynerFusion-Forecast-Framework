@@ -4,28 +4,25 @@
 
 1. [Introduction](#Introduction)
 2. [Python Environment](#Python-Environment)
-3. [Data Preparation](#Data-Preparation)
-4. [Model Overview](#Model-Overview)
-5. [Usage](#Usage)
-6. [Features and Capabilities](#Features-and-Capabilities)
-7. [Experimental Results](#Experimental-Results)
-8. [Contributing and License](#Contributing-and-License)
+3. [Data Sources](#Data-Sources)
+4. [License](#License)
+5. [Contact](#Contact)
 
 ---
 
 ## 1. Introduction
 
-The content of this repository is based on the research article:
+This repository is based on the research article titled:
 **"Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions."**
 
-The main content of the research article includes:
-- Data sources
-- Data processing
-- Model
+The article provides insights into the following aspects:
+- Data sources utilized in the study
+- Data processing methodologies
+- Model development and application
 
 ## 2. Python Environment
 
-This study utilizes a conda environment. Below are the installation instructions and necessary software dependencies:
+This study utilizes a conda environment for smooth execution. Below are the required installations and dependencies:
 
 <table style="width: 100%;">
   <tr>
@@ -50,12 +47,11 @@ This study utilizes a conda environment. Below are the installation instructions
   </tr>
 </table>
 
-Make sure to follow the installation guides for each software and set up the environment as specified.
-
+Please follow the installation guides for each software and set up the environment accordingly.
 
 ## 3. Data Sources
 
-The data used in this study is sourced from the following datasets:
+The datasets used for this study are as follows:
 
 <table style="width: 100%;">
   <tr>
@@ -75,27 +71,19 @@ The data used in this study is sourced from the following datasets:
   </tr>
   <tr>
     <td style="text-align: center;"><strong>Statistical Yearbook</strong></td>
-    <td style="text-align: center;">The data is sourced from China's prefecture-level city official websites, containing annual statistical information.</td>
+    <td style="text-align: center;">Data sourced from China's prefecture-level city official websites, containing annual statistical information.</td>
     <td style="text-align: center;">No specific URL available</td>
   </tr>
 </table>
 
-## 4. Model Overview
+## 4. License
 
-(Provide details about the model structure, algorithms, and implementation)
+This repository is open-source and licensed under the MIT License. Feel free to use and contribute to the project.
 
-## 5. Usage
+## 5. Contact
 
-(Explain how to use the framework, including example code and commands)
+For questions or further information, please contact the project maintainer at:
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- GitHub: [GitHub Repository](https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework)
 
-## 6. Features and Capabilities
-
-(List the main features and capabilities of the framework)
-
-## 7. Experimental Results
-
-(Provide experimental results, including performance, comparisons, and analysis)
-
-## 8. Contributing and License
-
-(Describe how to contribute to the project, and provide information about the licensing)
+---
