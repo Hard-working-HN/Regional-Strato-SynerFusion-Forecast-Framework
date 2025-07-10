@@ -1,1 +1,1 @@
-# Regional-Strato-SynerFusion-Forecast-Framework
+# Regional Strato SynerFusion Forecast Framework
