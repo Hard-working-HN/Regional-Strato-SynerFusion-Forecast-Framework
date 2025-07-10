@@ -15,12 +15,12 @@
 
 ## 1. Introduction
 
-# The content of this repository is based on the research article: 
+#### The content of this repository is based on the research article: 
 Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions.
-# The main content of the research article includes the following:
-a. [Data sources](# Data sources)
-b. [Data processing](# Data processing)
-c. [Model](# Model)
+#### The main content of the research article includes the following:
+a.Data sources
+b.Data processing
+c.Model
 ## 2. Python Environment
 
 
