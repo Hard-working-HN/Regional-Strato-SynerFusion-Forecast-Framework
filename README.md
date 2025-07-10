@@ -31,7 +31,7 @@ This study utilizes a conda environment. Below are the installation instructions
 | ------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Conda**          | Conda is used for managing the Python environment. Please refer to the official Conda documentation. | [Conda Guide](https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main) |
 | **VSCode**         | The software used for coding and managing the project. Please refer to the official VSCode website. | [VSCode Guide](https://code.visualstudio.com/docs)                          |
-| **Python Libraries** | The Python libraries used in this study, including their versions.  | [Download `HN_Environment.yaml`](https://github.com/your-repo-path/HN_Environment.yaml) |
+| **Python Libraries** | The Python libraries used in this study, including their versions.  | [Download](https://github.com/your-repo-path/HN_Environment.yaml) |
 
 Make sure to follow the installation guides for each software and set up the environment as specified.
 
