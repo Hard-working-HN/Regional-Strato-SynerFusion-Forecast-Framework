@@ -27,7 +27,7 @@ The main content of the research article includes:
 
 This study utilizes a conda environment. Below are the installation instructions and necessary software dependencies:
 
-<table style="width: 100%; text-align: center;">
+<table style="width: 100%;">
   <tr>
     <th style="text-align: center;">Software/Package</th>
     <th style="text-align: center;">Description</th>
@@ -52,11 +52,12 @@ This study utilizes a conda environment. Below are the installation instructions
 
 Make sure to follow the installation guides for each software and set up the environment as specified.
 
+
 ## 3. Data Sources
 
 The data used in this study is sourced from the following datasets:
 
-<table style="width: 100%; text-align: center;">
+<table style="width: 100%;">
   <tr>
     <th style="text-align: center;">Data Source</th>
     <th style="text-align: center;">Description</th>
