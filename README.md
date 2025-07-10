@@ -29,29 +29,28 @@ This study utilizes a conda environment. Below are the installation instructions
 
 <table style="width: 100%; text-align: center;">
   <tr>
-    <th>Software/Package</th>
-    <th>Description</th>
-    <th style="width: 400px;">Link</th>
+    <th style="text-align: center;">Software/Package</th>
+    <th style="text-align: center;">Description</th>
+    <th style="text-align: center; width: 400px;">Link</th>
   </tr>
   <tr>
-    <td><strong>Conda</strong></td>
-    <td>Conda is used for managing the Python environment. Please refer to the official Conda documentation.</td>
-    <td><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
+    <td style="text-align: center;"><strong>Conda</strong></td>
+    <td style="text-align: center;">Conda is used for managing the Python environment. Please refer to the official Conda documentation.</td>
+    <td style="text-align: center;"><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
   </tr>
   <tr>
-    <td><strong>VSCode</strong></td>
-    <td>The software used for coding and managing the project. Please refer to the official VSCode website.</td>
-    <td><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
+    <td style="text-align: center;"><strong>VSCode</strong></td>
+    <td style="text-align: center;">The software used for coding and managing the project. Please refer to the official VSCode website.</td>
+    <td style="text-align: center;"><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
   </tr>
   <tr>
-    <td><strong>Environment</strong></td>
-    <td>The Python libraries used in this study, including their versions.</td>
-    <td><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
+    <td style="text-align: center;"><strong>Environment</strong></td>
+    <td style="text-align: center;">The Python libraries used in this study, including their versions.</td>
+    <td style="text-align: center;"><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
   </tr>
 </table>
 
 Make sure to follow the installation guides for each software and set up the environment as specified.
-
 
 ## 3. Data Sources
 
@@ -59,27 +58,26 @@ The data used in this study is sourced from the following datasets:
 
 <table style="width: 100%; text-align: center;">
   <tr>
-    <th>Data Source</th>
-    <th>Description</th>
-    <th>Link/Details</th>
+    <th style="text-align: center;">Data Source</th>
+    <th style="text-align: center;">Description</th>
+    <th style="text-align: center;">Link/Details</th>
   </tr>
   <tr>
-    <td><strong>ERA5-Land</strong></td>
-    <td>ERA5-Land provides hourly grid data for 50 climate indicators over China from 2013 to 2022.</td>
-    <td><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview">ERA5-Land Dataset</a></td>
+    <td style="text-align: center;"><strong>ERA5-Land</strong></td>
+    <td style="text-align: center;">ERA5-Land provides hourly grid data for 50 climate indicators over China from 2013 to 2022.</td>
+    <td style="text-align: center;"><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview">ERA5-Land Dataset</a></td>
   </tr>
   <tr>
-    <td><strong>CHAP</strong></td>
-    <td>CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022.</td>
-    <td><a href="https://weijing-rs.github.io/product.html">CHAP Dataset</a></td>
+    <td style="text-align: center;"><strong>CHAP</strong></td>
+    <td style="text-align: center;">CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022.</td>
+    <td style="text-align: center;"><a href="https://weijing-rs.github.io/product.html">CHAP Dataset</a></td>
   </tr>
   <tr>
-    <td><strong>Statistical Yearbook</strong></td>
-    <td>The data is sourced from China's prefecture-level city official websites, containing annual statistical information.</td>
-    <td>No specific URL available</td>
+    <td style="text-align: center;"><strong>Statistical Yearbook</strong></td>
+    <td style="text-align: center;">The data is sourced from China's prefecture-level city official websites, containing annual statistical information.</td>
+    <td style="text-align: center;">No specific URL available</td>
   </tr>
 </table>
-
 
 ## 4. Model Overview
 
