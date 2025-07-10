@@ -27,26 +27,26 @@ The main content of the research article includes:
 
 This study utilizes a conda environment. Below are the installation instructions and necessary software dependencies:
 
-<table>
+<table style="width: 100%; text-align: center;">
   <tr>
     <th>Software/Package</th>
     <th>Description</th>
-    <th style="width: 400px; text-align: center;">Link</th>
+    <th style="width: 400px;">Link</th>
   </tr>
   <tr>
     <td><strong>Conda</strong></td>
     <td>Conda is used for managing the Python environment. Please refer to the official Conda documentation.</td>
-    <td style="text-align: center;"><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
+    <td><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
   </tr>
   <tr>
     <td><strong>VSCode</strong></td>
     <td>The software used for coding and managing the project. Please refer to the official VSCode website.</td>
-    <td style="text-align: center;"><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
+    <td><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
   </tr>
   <tr>
     <td><strong>Environment</strong></td>
     <td>The Python libraries used in this study, including their versions.</td>
-    <td style="text-align: center;"><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
+    <td><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
   </tr>
 </table>
 
@@ -57,11 +57,29 @@ Make sure to follow the installation guides for each software and set up the env
 
 The data used in this study is sourced from the following datasets:
 
-| Data Source           | Description | Link/Details |
-| --------------------- | ----------- | ------------ |
-| **ERA5-Land**         | ERA5-Land provides hourly grid data for 50 climate indicators over China from 2013 to 2022. | [ERA5-Land Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview) |
-| **CHAP**              | CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022. | [CHAP Dataset](https://weijing-rs.github.io/product.html) |
-| **Statistical Yearbook** | The data is sourced from China's prefecture-level city official websites, containing annual statistical information. | No specific URL available |
+<table style="width: 100%; text-align: center;">
+  <tr>
+    <th>Data Source</th>
+    <th>Description</th>
+    <th>Link/Details</th>
+  </tr>
+  <tr>
+    <td><strong>ERA5-Land</strong></td>
+    <td>ERA5-Land provides hourly grid data for 50 climate indicators over China from 2013 to 2022.</td>
+    <td><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview">ERA5-Land Dataset</a></td>
+  </tr>
+  <tr>
+    <td><strong>CHAP</strong></td>
+    <td>CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022.</td>
+    <td><a href="https://weijing-rs.github.io/product.html">CHAP Dataset</a></td>
+  </tr>
+  <tr>
+    <td><strong>Statistical Yearbook</strong></td>
+    <td>The data is sourced from China's prefecture-level city official websites, containing annual statistical information.</td>
+    <td>No specific URL available</td>
+  </tr>
+</table>
+
 
 ## 4. Model Overview
 
