@@ -46,7 +46,7 @@ This study utilizes a conda environment. Below are the installation instructions
   <tr>
     <td><strong>Python Libraries</strong></td>
     <td>The Python libraries used in this study, including their versions.</td>
-    <td style="text-align: center;"><a href="blob:https://github.com/fc42b630-59e7-4c78-8efd-bb13dc2cbd29">Download Environment</a></td>
+    <td style="text-align: center;"><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
   </tr>
 </table>
 
