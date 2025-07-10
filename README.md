@@ -2,17 +2,18 @@
 
 ## Contents
 
-1. [Introduction](#introduction)
-2. [Python Environment](#python-environment)
-3. [Data Sources](#data-sources)
-4. [License](#license)
-5. [Contact](#contact)
+1. [Introduction](#1-introduction)
+2. [Python Environment](#2-python-environment)
+3. [Data Sources](#3-data-sources)
+4. [License](#4-license)
+5. [Contact](#5-contact)
 
 ---
 
+<a id="1-introduction"></a>
 ## 1. Introduction
 
-This repository is based on the research article titled:
+This repository is based on the research article titled:  
 **"Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions."**
 
 The article provides insights into the following aspects:
@@ -20,6 +21,7 @@ The article provides insights into the following aspects:
 - Data processing methodologies
 - Model development and application
 
+<a id="2-python-environment"></a>
 ## 2. Python Environment
 
 This study utilizes a conda environment for smooth execution. Below are the required installations and dependencies:
@@ -49,6 +51,7 @@ This study utilizes a conda environment for smooth execution. Below are the requ
 
 Please follow the installation guides for each software and set up the environment accordingly.
 
+<a id="3-data-sources"></a>
 ## 3. Data Sources
 
 The datasets used for this study are as follows:
@@ -76,13 +79,15 @@ The datasets used for this study are as follows:
   </tr>
 </table>
 
+<a id="4-license"></a>
 ## 4. License
 
 This repository is open-source and licensed under the MIT License. Feel free to use and contribute to the project.
 
+<a id="5-contact"></a>
 ## 5. Contact
 
-For questions or further information, please contact the project maintainer at:
-- Email: [haoning24@mails.jlu.edu.cn](haoning24@mails.jlu.edu.cn)
+For questions or further information, please contact the project maintainer at:  
+- Email: [haoning24@mails.jlu.edu.cn](mailto:haoning24@mails.jlu.edu.cn)
 
 ---
