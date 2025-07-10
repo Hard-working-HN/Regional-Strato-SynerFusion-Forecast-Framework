@@ -46,7 +46,7 @@ This study utilizes a conda environment. Below are the installation instructions
   <tr>
     <td><strong>Python Libraries</strong></td>
     <td>The Python libraries used in this study, including their versions.</td>
-    <td style="text-align: center;"><a href="https://github.com/your-repo-path/HN_Environment.yaml">Download yaml</a></td>
+    <td style="text-align: center;"><a href="https://github.com/your-repo-path/HN_Environment.yaml">  Download  </a></td>
   </tr>
 </table>
 
