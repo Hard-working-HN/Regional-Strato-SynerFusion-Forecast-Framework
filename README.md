@@ -53,9 +53,15 @@ This study utilizes a conda environment. Below are the installation instructions
 Make sure to follow the installation guides for each software and set up the environment as specified.
 
 
-## 3. Data Preparation
+## 3. Data Sources
 
-(Describe the necessary data, how to prepare it, and how to load it into the framework)
+The data used in this study is sourced from the following datasets:
+
+| Data Source           | Description | Link/Details |
+| --------------------- | ----------- | ------------ |
+| **ERA5-Land**         | ERA5-Land provides hourly grid data for 50 climate indicators over China from 2013 to 2022. | [ERA5-Land Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview) |
+| **CHAP**              | CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022. | [CHAP Dataset](https://weijing-rs.github.io/product.html) |
+| **Statistical Yearbook** | The data is sourced from China's prefecture-level city official websites, containing annual statistical information. | No specific URL available |
 
 ## 4. Model Overview
 
