@@ -44,7 +44,7 @@ This study utilizes a conda environment. Below are the installation instructions
     <td style="text-align: center;"><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
   </tr>
   <tr>
-    <td><strong>Python Libraries</strong></td>
+    <td><strong>Environment</strong></td>
     <td>The Python libraries used in this study, including their versions.</td>
     <td style="text-align: center;"><a href="https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework/blob/50dcf36d55c58d64ed25f745b87f5da8d7828b51/HN_Environment.yml">Download Environment</a></td>
   </tr>
