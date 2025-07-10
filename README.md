@@ -31,26 +31,27 @@ This study utilizes a conda environment. Below are the installation instructions
   <tr>
     <th>Software/Package</th>
     <th>Description</th>
-    <th style="width: 300px;">Link/Details</th>
+    <th style="width: 300px; text-align: center;">Link</th>
   </tr>
   <tr>
     <td><strong>Conda</strong></td>
     <td>Conda is used for managing the Python environment. Please refer to the official Conda documentation.</td>
-    <td><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
+    <td style="text-align: center;"><a href="https://www.anaconda.com/docs/tools/anaconda-org/user-guide/main">Conda Guide</a></td>
   </tr>
   <tr>
     <td><strong>VSCode</strong></td>
     <td>The software used for coding and managing the project. Please refer to the official VSCode website.</td>
-    <td><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
+    <td style="text-align: center;"><a href="https://code.visualstudio.com/docs">VSCode Guide</a></td>
   </tr>
   <tr>
     <td><strong>Python Libraries</strong></td>
     <td>The Python libraries used in this study, including their versions.</td>
-    <td><a href="https://github.com/your-repo-path/HN_Environment.yaml">Download yaml</a></td>
+    <td style="text-align: center;"><a href="https://github.com/your-repo-path/HN_Environment.yaml">Download yaml</a></td>
   </tr>
 </table>
 
 Make sure to follow the installation guides for each software and set up the environment as specified.
+
 
 ## 3. Data Preparation
 
