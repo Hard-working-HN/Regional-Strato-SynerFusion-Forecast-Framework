@@ -16,7 +16,7 @@
 ## 1. Introduction
 
 The content of this repository is based on the research article:
-**"Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions."**
+- **"Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions."**
 
 The main content of the research article includes:
 - Data sources
