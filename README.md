@@ -3,49 +3,50 @@
 ## Contents
 
 1. [Introduction](#Introduction)
-2. [Python Environment](#Python Environment).
-3. [数据准备](#数据准备)
-4. [模型概述](#模型概述)
-5. [使用方法](#使用方法)
-6. [功能与特点](#功能与特点)
-7. [实验结果](#实验结果)
-8. [贡献与许可](#贡献与许可)
+2. [Python Environment](#Python-Environment)
+3. [Data Preparation](#Data-Preparation)
+4. [Model Overview](#Model-Overview)
+5. [Usage](#Usage)
+6. [Features and Capabilities](#Features-and-Capabilities)
+7. [Experimental Results](#Experimental-Results)
+8. [Contributing and License](#Contributing-and-License)
 
 ---
 
 ## 1. Introduction
 
-#### The content of this repository is based on the research article: 
-Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions.
-#### The main content of the research article includes the following:
-a.Data sources
-b.Data processing
-c.Model
+The content of this repository is based on the research article:
+**"Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions."**
+
+The main content of the research article includes:
+- Data sources
+- Data processing
+- Model development and implementation
+
 ## 2. Python Environment
 
+(Provide the Python version, libraries, and environment setup instructions here)
 
+## 3. Data Preparation
 
-## 3. 数据准备
+(Describe the necessary data, how to prepare it, and how to load it into the framework)
 
-(说明需要哪些数据，并介绍如何准备和加载数据)
+## 4. Model Overview
 
-## 4. 模型概述
+(Provide details about the model structure, algorithms, and implementation)
 
-(详细介绍模型的结构、算法和实现细节)
+## 5. Usage
 
-## 5. 使用方法
+(Explain how to use the framework, including example code and commands)
 
-(提供如何使用框架的指南，可能包括示例代码和命令)
+## 6. Features and Capabilities
 
-## 6. 功能与特点
+(List the main features and capabilities of the framework)
 
-(列举框架的主要功能和特点)
+## 7. Experimental Results
 
-## 7. 实验结果
+(Provide experimental results, including performance, comparisons, and analysis)
 
-(提供相关的实验结果，包括性能、对比分析等)
+## 8. Contributing and License
 
-## 8. 贡献与许可
-
-(说明如何为项目贡献代码，以及许可协议)
-
+(Describe how to contribute to the project, and provide information about the licensing)
