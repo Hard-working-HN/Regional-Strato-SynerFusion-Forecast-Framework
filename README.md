@@ -70,7 +70,7 @@ The data used in this study is sourced from the following datasets:
   </tr>
   <tr>
     <td style="text-align: center;"><strong>CHAP</strong></td>
-    <td style="text-align: center;">CHAP provides daily concentrations of 6 air pollutants (CO, NO2, O3, SO2, PM2.5, and PM10) over China from 2013 to 2022.</td>
+    <td style="text-align: center;">CHAP provides daily concentrations of 6 air pollutants (CO, NO<sub>2</sub>, O<sub>3</sub>, SO<sub>2</sub>, PM<sub>2.5</sub>, and PM<sub>10</sub>) over China from 2013 to 2022.</td>
     <td style="text-align: center;"><a href="https://weijing-rs.github.io/product.html">CHAP Dataset</a></td>
   </tr>
   <tr>
