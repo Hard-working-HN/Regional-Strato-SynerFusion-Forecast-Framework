@@ -2,8 +2,8 @@
 
 ## Contents
 
-1. [简介](#简介)
-2. [安装与配置](#安装与配置)
+1. [Introduction](#Introduction)
+2. [Python Environment](#Python Environment)
 3. [数据准备](#数据准备)
 4. [模型概述](#模型概述)
 5. [使用方法](#使用方法)
@@ -13,13 +13,17 @@
 
 ---
 
-## 1. 简介
+## 1. Introduction
 
-(这里是简介部分，描述项目的背景、目标和主要功能等)
+# The content of this repository is based on the research article: 
+Informing atmospheric pollution hotspots and exposure risks under climate change using machine learning: Evidence from 2843 Chinese regions.
+# The main content of the research article includes the following:
+a. [Data sources](# Data sources)
+b. [Data processing](# Data processing)
+c. [Model](# Model)
+## 2. Python Environment
 
-## 2. 安装与配置
 
-(在此部分提供如何安装和配置框架的步骤)
 
 ## 3. 数据准备
 
