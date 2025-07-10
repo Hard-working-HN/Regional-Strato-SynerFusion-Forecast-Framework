@@ -2,11 +2,11 @@
 
 ## Contents
 
-1. [Introduction](#Introduction)
-2. [Python Environment](#Python-Environment)
-3. [Data Sources](#Data-Sources)
-4. [License](#License)
-5. [Contact](#Contact)
+1. [Introduction](#introduction)
+2. [Python Environment](#python-environment)
+3. [Data Sources](#data-sources)
+4. [License](#license)
+5. [Contact](#contact)
 
 ---
 
@@ -83,7 +83,6 @@ This repository is open-source and licensed under the MIT License. Feel free to 
 ## 5. Contact
 
 For questions or further information, please contact the project maintainer at:
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- GitHub: [GitHub Repository](https://github.com/Hard-working-HN/Regional-Strato-SynerFusion-Forecast-Framework)
+- Email: [haoning24@mails.jlu.edu.cn](haoning24@mails.jlu.edu.cn)
 
 ---
