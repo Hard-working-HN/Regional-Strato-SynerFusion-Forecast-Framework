@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, m
 input_dir = r"C:\Users\16432\Desktop\Table_S7_S8\Result_statistics\Long\parquet5"  
 output_dir = r"C:\Users\16432\Desktop\Table_S7_S8\Evaluation\Long\parquet5"  
 os.makedirs(output_dir, exist_ok=True)
-
+ 
 exclude_ids = [55, 91, 103, 147, 174, 188, 199, 262, 332, 363, 433, 439, 492]
 
 def calculate_metrics(y_true, y_pred):
@@ -74,3 +74,4 @@ def batch_process(input_dir, output_dir):
         process_file(input_csv, output_dir)
 
 batch_process(input_dir, output_dir)
+
