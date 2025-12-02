@@ -17,7 +17,7 @@ df = pd.read_csv(data_path).dropna()
 
 pollutants = ['Day_CO', 'Day_NO2', 'Day_O3', 'Day_PM10', 'Day_PM2.5', 'Day_SO2']
 
-cols_to_exclude = ['Death', 'County_Level'] + pollutants 
+cols_to_exclude = ['Death'] + pollutants 
 W_raw = df.drop(columns=cols_to_exclude, errors='ignore').copy()
 
 cat_cols = W_raw.select_dtypes(include=['object', 'category']).columns.tolist()
@@ -175,4 +175,5 @@ for idx, comb in enumerate(all_combs, start=1):
         with open("error_combinations.log", "a", encoding="utf-8") as f:
 
             f.write(f"{comb_str} ：{str(e)}\n")
+
 
