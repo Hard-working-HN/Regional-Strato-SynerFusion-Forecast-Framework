@@ -11,7 +11,7 @@ variable = 'potential_evaporation'
 area = [55, 73, 3, 137]
 output_file = 'potential_evaporation2.txt'
 
-months_to_download = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
+months_to_download = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'] 
 
 with open(output_file, 'w') as f:
     for year in years:
@@ -67,3 +67,4 @@ for line in lines:
         subprocess.run(idm_command, shell=True)
 
 subprocess.run(f'"{idm_path}" /s', shell=True)
+
