@@ -23,6 +23,9 @@ W_raw = df.drop(columns=cols_to_exclude, errors='ignore').copy()
 cat_cols = W_raw.select_dtypes(include=['object', 'category']).columns.tolist()
 W_df = pd.get_dummies(W_raw, columns=cat_cols, drop_first=True)
 
+W = W_df.values                        
+y = df['Death'].values.ravel()            
+
 if os.path.exists(result_path):
     res_df = pd.read_csv(result_path, encoding='utf-8-sig')
     done_combinations = set(res_df['combination'].tolist())
@@ -172,3 +175,4 @@ for idx, comb in enumerate(all_combs, start=1):
         with open("error_combinations.log", "a", encoding="utf-8") as f:
 
             f.write(f"{comb_str} ：{str(e)}\n")
+
