@@ -15,11 +15,13 @@ os.makedirs(individual_effect_dir, exist_ok=True)
 
 df = pd.read_csv(data_path).dropna()
 
-W_df = pd.get_dummies(df['County_Level'], prefix='County', drop_first=True)
-W = W_df.values                           
-y = df['Death'].values.ravel()            
-
 pollutants = ['Day_CO', 'Day_NO2', 'Day_O3', 'Day_PM10', 'Day_PM2.5', 'Day_SO2']
+
+cols_to_exclude = ['Death', 'County_Level'] + pollutants 
+W_raw = df.drop(columns=cols_to_exclude, errors='ignore').copy()
+
+cat_cols = W_raw.select_dtypes(include=['object', 'category']).columns.tolist()
+W_df = pd.get_dummies(W_raw, columns=cat_cols, drop_first=True)
 
 if os.path.exists(result_path):
     res_df = pd.read_csv(result_path, encoding='utf-8-sig')
@@ -168,4 +170,5 @@ for idx, comb in enumerate(all_combs, start=1):
     except Exception as e:
         print(f'{comb_str}：{e}')
         with open("error_combinations.log", "a", encoding="utf-8") as f:
+
             f.write(f"{comb_str} ：{str(e)}\n")
