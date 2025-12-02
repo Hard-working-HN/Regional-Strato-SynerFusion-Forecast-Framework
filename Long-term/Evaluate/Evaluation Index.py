@@ -10,7 +10,7 @@ os.makedirs(output_dir, exist_ok=True)
 exclude_ids = [55, 91, 103, 147, 174, 188, 199, 262, 332, 363, 433, 439, 492]
 
 def calculate_metrics(y_true, y_pred):
-    y_true = np.array(y_true)
+    y_true = np.array(y_true) 
     y_pred = np.array(y_pred)
     y_true_safe = np.where(y_true == 0, 1e-6, y_true)
     
@@ -75,3 +75,4 @@ def batch_process(input_dir, output_dir):
         process_file(input_csv, output_dir)
 
 batch_process(input_dir, output_dir)
+
